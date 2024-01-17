@@ -28,7 +28,7 @@ class user:
     print("How can I help you today? ")
   def choices(self):
 
-    print("1. Buy a product")
+  
     print(" 1. Buy a product.\n 2.Return a Product. \n 3. Speak to a representative. \n 4. Exit Store.")
     self.choice = int(input("Pick the number of the option you want to choose."))
     if self.choice < 4 or choice > 1:
